@@ -13,6 +13,7 @@ backend: create-bucket
 	$(MAKE) -C backend TEMPLATE=auth S3_BUCKET=$(S3_BUCKET)
 	$(MAKE) -C backend TEMPLATE=product-mock S3_BUCKET=$(S3_BUCKET)
 	$(MAKE) -C backend TEMPLATE=shoppingcart-service S3_BUCKET=$(S3_BUCKET)
+	$(MAKE) -C backend TEMPLATE=template S3_BUCKET=$(S3_BUCKET)
 
 backend-delete:
 	$(MAKE) -C backend delete TEMPLATE=auth
