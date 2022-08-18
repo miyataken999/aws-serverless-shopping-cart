@@ -24,6 +24,13 @@ previous logged in sessions.
 for a longer period.
 - Admin users to be able to get an aggregated view of the total number of each product in users' carts at any time.
 
+### docker-compose
+- amazonmq
+- opensearch
+- graphqlmesh
+- fastapi
+- localstack
+
 ### Cart Migration
 
 When an item is added to the cart, an item is written in DynamoDB with an identifier which matches a randomly generated 
