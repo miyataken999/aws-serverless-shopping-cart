@@ -2,5 +2,16 @@ fastapi
 requests==2.22.0
 cognitojwt==1.1.0
 pika
+mangum
+boto3
+awscli
+env
+elasticsearch_dsl
+OpenSearch
+opensearch-py
+opensearch-dsl
+requests
+botocore
+fastapi_elasticsearch
 
 
