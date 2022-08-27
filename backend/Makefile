@@ -4,7 +4,7 @@ STACKNAME ?= aws-serverless-shopping-cart
 
 build:
 	@echo "Building template $(TEMPLATE).yaml..."
-	@sam build -t $(TEMPLATE).yaml --use-container
+	@sam build -t $(TEMPLATE).yaml
 
 deploy:  # s3 bucket still needed for layer
 	@echo "Deploying stack $(STACKNAME)-$(TEMPLATE)..."
