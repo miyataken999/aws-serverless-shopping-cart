@@ -32,6 +32,14 @@ for a longer period.
 - localstack
 - Uipah(tobotics) https://github.com/UiPath
 
+- Translate sql
+- sql to opensearch by logstash
+- create index
+- update index
+- insert docs
+- delete docs
+- create query
+
 ### Cart Migration
 
 When an item is added to the cart, an item is written in DynamoDB with an identifier which matches a randomly generated 

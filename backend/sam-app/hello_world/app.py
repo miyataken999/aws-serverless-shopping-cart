@@ -10,6 +10,10 @@ app = FastAPI(
 def root():
     return {"message": "Hello World"}
     
+@app.get("/cognito")
+def root():
+    return {"message": "Hello World"}
+
 from mangum import Mangum
 #from asgi_app import app
 
