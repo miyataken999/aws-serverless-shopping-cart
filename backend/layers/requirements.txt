@@ -3,12 +3,4 @@ cognitojwt==1.1.0
 pika
 fastapi[all]
 mangum
-boto3
-awscli
-env
-elasticsearch_dsl
-OpenSearch
-opensearch-py
-opensearch-dsl
-botocore
-fastapi_elasticsearch
+
