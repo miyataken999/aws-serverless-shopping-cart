@@ -1,6 +1,9 @@
 from fastapi import FastAPI
 
-app = FastAPI()
+app = FastAPI(    
+        title="test",
+        openapi_prefix="/Prod"
+        )
 
 @app.get("/hello")
 def root():
