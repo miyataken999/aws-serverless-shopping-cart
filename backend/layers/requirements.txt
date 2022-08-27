@@ -12,5 +12,7 @@ opensearch-py
 opensearch-dsl
 botocore
 fastapi_elasticsearch
+sqlalchemy
+aiomysql
 
 
