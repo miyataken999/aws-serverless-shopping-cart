@@ -4,6 +4,30 @@ import os
 import uuid
 from decimal import Decimal
 from http.cookies import SimpleCookie
+import json
+# import requests
+import os
+import sys
+#from .cruds.test import DETAL
+from fastapi import FastAPI, APIRouter, Query, Depends
+from fastapi.responses import JSONResponse
+from mangum import Mangum
+from starlette.requests import Request
+from fastapi.staticfiles import StaticFiles
+from fastapi.middleware.cors import CORSMiddleware
+from elasticsearch import Elasticsearch,exceptions
+#@title Example form fields
+import pprint
+import uuid
+from typing import Optional,Dict,Any
+#sys.path.append('opt')
+#from original_module import OriginalModule
+from fastapi_elasticsearch import ElasticsearchAPIQueryBuilder
+import urllib.request
+import json
+import sys
+from optparse import OptionParser
+
 
 from aws_lambda_powertools import Tracer
 
