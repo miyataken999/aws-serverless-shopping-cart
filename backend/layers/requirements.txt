@@ -10,6 +10,5 @@ elasticsearch_dsl
 OpenSearch
 opensearch-py
 opensearch-dsl
-requests
 botocore
 fastapi_elasticsearch
